@@ -1,0 +1,85 @@
+<select name="week">
+    {% for date in list_weeks%}
+        <option value="{{date.0}}" href="{% url 'weupdates:index' {{date.0}} %}"> {{ date.1 }} - {{ date.2 }}</option>
+    {% endfor %}
+</select>
+{%if user.is_authenticated%}
+    Hi {{ user.username }}!<br>
+    <a href="{% url 'weupdates:logout' %}">logout</a> <br>
+{% else %}
+    <p>You are not logged in</p>
+    <a href="{% url 'weupdates:view_login' %}">login</a>
+{% endif %}
+
+
+<div>
+Good/Bad stuff
+{%for goodbad in goodbad_list%}
+    <form action="{% url 'weupdates:add' choice.id %}" method = "post">
+        {% csrf_token %}
+    <ul>
+        <li>{{goodbad.action_text}}
+    {%if user.is_authenticated%}
+    <a href="{% url 'weupdates:remove' action.id %}">❌</a>
+    {% endif %}
+    {% if action.goodbad == True %}
+    😀
+    {%else%}
+    🙃
+    {%endif%}
+        </li>
+</ul>
+    {%if user.is_authenticated%}
+            <input type="text" name = "activity">
+            {%if choice.choice_text == 'Good/Bad stuff'%}
+                <input type="radio" name="goodbad" >
+                <label>Is it good?</label>
+            {%endif%}
+            <input type="submit" value="Post">
+        {% endif %}
+</form>
+</div>
+
+<div>
+    Notifications
+    {%for notif in notifications%}
+    <form action="{% url 'weupdates:add' choice.id %}" method = "post">
+    {% csrf_token %}
+        <ul>
+            <li>{{notif.action_text}}
+            {%if user.is_authenticated%}
+    <a href="{% url 'weupdates:remove' action.id %}">❌</a>
+    {% endif %}</li>
+        </ul>
+    {%if user.is_authenticated%}
+            <input type="text" name = "activity">
+            {%if choice.choice_text == 'Good/Bad stuff'%}
+                <input type="radio" name="goodbad" >
+                <label>Is it good?</label>
+            {%endif%}
+            <input type="submit" value="Post">
+        {% endif %}
+</form>
+</div>
+
+<div>
+    Questions
+    {%for question in questions%}
+    <form action="{% url 'weupdates:add' choice.id %}" method = "post">
+    {% csrf_token %}
+        <ul>
+            <li>{{notif.action_text}}
+            {%if user.is_authenticated%}
+    <a href="{% url 'weupdates:remove' action.id %}">❌</a>
+    {% endif %}</li>
+        </ul>
+    {%if user.is_authenticated%}
+            <input type="text" name = "activity">
+            {%if choice.choice_text == 'Good/Bad stuff'%}
+                <input type="radio" name="goodbad" >
+                <label>Is it good?</label>
+            {%endif%}
+            <input type="submit" value="Post">
+        {% endif %}
+</form>
+</div>

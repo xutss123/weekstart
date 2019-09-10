@@ -1,0 +1,76 @@
+<!--<div>-->
+<!--<select >-->
+<!--    {% for date in list_weeks%}-->
+<!--    <form method = "POST" name="week">-->
+<!--        <option value="{{date.0}}" > {{ date.1 }} - {{ date.2 }}</option>-->
+<!--        </form>-->
+<!--        {% endfor %}-->
+<!--</select>-->
+<!--    <a href="{% url 'weupdates:index' %}">pls</a>-->
+<!--</div>-->
+<form method = "POST" name="week" action="{% url 'weupdates:index' %}">
+    {% csrf_token %}
+    <select name="week_selection" onchange="get_week()">
+        {% for date in list_weeks%}
+            <option value="{{date.0}}"> {{ date.1 }} - {{ date.2 }}</option>
+        {% endfor %}
+    </select>
+    <input type="submit">
+ </form>
+
+{%if user.is_authenticated%}
+    Hi {{ user.username }}!<br>
+    <a href="{% url 'weupdates:logout' %}">logout</a> <br>
+{% else %}
+    <p>You are not logged in</p>
+    <a href="{% url 'weupdates:view_login' %}">login</a>
+{% endif %}
+
+
+{%for choice in choice_list%}
+    <form action="{% url 'weupdates:add' choice.id %}" method = "post">
+         {% csrf_token %}
+
+        <p>{{choice.choice_text}}</p>
+        {% if activity_list %}
+            {% for action in activity_list %}
+                <ul>
+                        {%if action.choice_id == choice.id%}
+                            <li>
+                                {%if user.is_authenticated%}
+                                <a href="{% url 'weupdates:remove' action.id %}">❌</a>
+                                {% endif %}
+                                {{action.action_text}} created by {{action.user.username}}
+                                {%if choice.choice_text == 'Good/Bad stuff'%}
+                                    {% if action.goodbad == True %}
+                                    😀
+                                    {%else%}
+                                    🙃
+                                {%endif%}
+                                {%endif%}
+                        </li>
+                    {%endif%}
+                </ul>
+            {% endfor %}
+        {%endif%}
+        {%if user.is_authenticated%}
+            <input type="text" name = "activity">
+            {%if choice.choice_text == 'Good/Bad stuff'%}
+                <input type="radio" name="goodbad" >
+                <label>Is it good?</label>
+            {%endif%}
+            <input type="integer" name = "selected_week" id = "selected_week">
+            <input type="submit" value="Post">
+        {% endif %}
+    </form>
+{%endfor%}
+
+
+<script>
+    function get_week(){
+        var week = document.getElementsByName('week_selection');
+        console.log(week.options[week.selectedIndex].value);
+        document.getElementById('selected_week').value=week.options[week.selectedIndex].value;
+    }
+
+</script>
