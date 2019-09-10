@@ -15,35 +15,28 @@ def index(request, week = None):
     if request.method == 'POST':
         week = request.POST.get('week_selection')
 
+
     if week is None:
         today = timezone.now().today()
-        week_none = today.strftime("%U")
+        week = int(today.strftime("%U"))+1
 
     year = timezone.now().year
 
     list_weeks = []
     for i in range(1, 53):
         list_weeks.append(get_date_range_from_week(year, i))
-
-    if week is None:
-        activity_list = Action.objects.filter(pub_date=int(week_none))
-    else:
-        activity_list = Action.objects.filter(pub_date = int(week))
-
+    activity_list = Action.objects.filter(pub_date = week)
     choice_list = Choice.objects.order_by('pk')
     context = {
         'activity_list': activity_list,
         'choice_list': choice_list,
         'list_weeks': list_weeks
     }
-    # if week is None:
-    #     return render(request, template_name='weupdates/index',week = week_none, context=context)
-    #     #return redirect('weupdates:index_with_week', week = week_none, context= context)
-    # else:
-    #     # return redirect('weupdates:index_with_week', week = week)
-    #     return redirect('weupdates/index_with_week', week=int(week))
-    return render(
-        request, template_name='weupdates/index.html', context=context)
+    if week is not None:
+        return render(
+            request, template_name='weupdates/index.html', context=context)
+    else:
+        if week == int(today.strftime("%U"))+1: render('weupdates:index_with_week', week = week)
 
 
 def LoginView(request):
@@ -86,13 +79,17 @@ def add(request, choice_id):
         c = Choice.objects.get(pk=choice_id)
         a = Action(choice=c, action_text=text, pub_date=int(week), goodbad=good_or_bad, user= request.user)
         a.save()
-
+    print('\033[34m{}\033[0m'.format(week))
     return redirect('weupdates:index_with_week', week = week)
 
 
 def remove(request, activity_id):
+    week = Action.objects.get(pk=activity_id).pub_date
+    print('\033[34m{}\033[0m'.format(week))
     Action.objects.filter(pk=activity_id).delete()
-    return HttpResponseRedirect(reverse('weupdates:index'))
+    return redirect('weupdates:index_with_week', week = week)
+
+
 
 
 def get_date_range_from_week(p_year, p_week):

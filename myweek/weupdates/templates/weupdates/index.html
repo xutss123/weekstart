@@ -8,15 +8,15 @@
 <!--</select>-->
 <!--    <a href="{% url 'weupdates:index' %}">pls</a>-->
 <!--</div>-->
-<body onload="get_week()">
+<body >
 <form method = "POST" name="week" action="{% url 'weupdates:index' %}">
     {% csrf_token %}
-    <select name="week_selection" onchange="get_week()">
+    <select name="week_selection">
         {% for date in list_weeks%}
-            <option value="{{date.0}}"> {{ date.1 }} - {{ date.2 }}</option>
+            <option value="{{date.0}}" > {{ date.1 }} - {{ date.2 }}</option>
         {% endfor %}
     </select>
-    <input type="submit">
+    <input type="submit" onclick="get_week()">
  </form>
 
 {%if user.is_authenticated%}
@@ -71,7 +71,7 @@
     function get_week(){
         // Populates the input of selected_week so that on save it uses the correct week
         var week = document.getElementsByName('week_selection')[0];
-        console.log(week.options[week.selectedIndex].value);
+        //console.log(week.options[week.selectedIndex].value);
         document.getElementsByName('selected_week').forEach(function(element){
             element.value=week.options[week.selectedIndex].value;
         })
