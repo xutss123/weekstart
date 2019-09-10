@@ -32,7 +32,6 @@ function deactivate -d 'Exit virtualenv mode and return to the normal environmen
     end
 
     if test -n "$_OLD_FISH_PROMPT_OVERRIDE"
-       and functions -q _old_fish_prompt
         # Set an empty local `$fish_function_path` to allow the removal of `fish_prompt` using `functions -e`.
         set -l fish_function_path
 
@@ -57,7 +56,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/alexandraturcu/Desktop/Gen/weekstart/env"
+set -gx VIRTUAL_ENV "/Users/ines/projects/weekstart25_v2/weekstart/env"
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | tr "." "\n")[1] -lt 3

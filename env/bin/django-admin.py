@@ -1,4 +1,4 @@
-#!/Users/alexandraturcu/Desktop/Gen/weekstart/env/bin/python3
+#!/Users/ines/projects/weekstart25_v2/weekstart/env/bin/python3.7
 from django.core import management
 
 if __name__ == "__main__":

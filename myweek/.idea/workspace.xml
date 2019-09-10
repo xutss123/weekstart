@@ -1,12 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6046bcd-6784-41cc-a3d9-13dea8e12b38" name="Default Changelist" comment="" />
+    <list default="true" id="f6046bcd-6784-41cc-a3d9-13dea8e12b38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/.Python" beforeDir="false" afterPath="$PROJECT_DIR$/../env/.Python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/activate.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/activate.xsh" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/activate.xsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/activate_this.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/activate_this.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/django-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/django-admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/easy_install-3.7" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/easy_install-3.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/pip3.7" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/pip3.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/python-config" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/python-config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/python3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/python3.7" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/python3.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/sqlformat" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/sqlformat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/bin/wheel" beforeDir="false" afterPath="$PROJECT_DIR$/../env/bin/wheel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/include/python3.7m" beforeDir="false" afterPath="$PROJECT_DIR$/../env/include/python3.7m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/__future__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/__future__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/_bootlocale.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/_bootlocale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/_collections_abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/_collections_abc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/_dummy_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/_dummy_thread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/_weakrefset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/_weakrefset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/abc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/base64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/bisect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/bisect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/codecs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/codecs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/collections" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/collections" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/config-3.7m-darwin" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/config-3.7m-darwin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/copyreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/copyreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/encodings" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/encodings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/fnmatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/fnmatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/functools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/functools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/genericpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/genericpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/hashlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/hashlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/heapq.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/heapq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/hmac.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/hmac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/imp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/imp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/importlib" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/importlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/keyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/keyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/lib-dynload" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/lib-dynload" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/linecache.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/linecache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/locale.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/locale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/ntpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/ntpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/orig-prefix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/orig-prefix.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/os.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/os.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/posixpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/posixpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/random.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/re.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/re.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/readline.so" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/readline.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/reprlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/reprlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/rlcompleter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/rlcompleter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/shutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/shutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/Django-2.2.5.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/Django-2.2.5.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices-2.1.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices-2.1.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices-2.1.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices-2.1.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices-2.1.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices-2.1.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/choice_builders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/mixins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/e2e/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/e2e/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/e2e/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/e2e/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/test_models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/test_models/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/test_models/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/test_models/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/test_models/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/test_models/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/test_models/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/e2e/test_models/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/e2e/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_admin_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_filterset_integrations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_form_fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_form_integrations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_model_fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_model_integrations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_serializer_fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_serializer_integrations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/test_serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/testapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/testapp/database_routers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/testapp/enumerations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/tests/testapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/django_enum_choices/validators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/pip-19.2.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/pip-19.2.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/setuptools-41.2.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/setuptools-41.2.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/sqlparse-0.3.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/sqlparse-0.3.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/wheel-0.33.6.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/site-packages/wheel-0.33.6.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/site.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/site.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/sre_compile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/sre_compile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/sre_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/sre_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/sre_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/sre_parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/stat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/struct.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/struct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/tarfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/tarfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/tempfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/tempfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/token.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/tokenize.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/tokenize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/warnings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/warnings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../env/lib/python3.7/weakref.py" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.7/weakref.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myweek.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myweek.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weupdates/templates/weupdates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/weupdates/templates/weupdates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weupdates/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/weupdates/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weupdates/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weupdates/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weupdates/views.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../env/lib/python3.7/site-packages/django/shortcuts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="39" column="49" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weupdates/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weupdates/templates/weupdates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,11 +197,73 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/weupdates/templates/weupdates/index.html" />
+        <option value="$PROJECT_DIR$/weupdates/urls.py" />
+        <option value="$PROJECT_DIR$/weupdates/views.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1387" />
+    <option name="height" value="1057" />
+  </component>
   <component name="ProjectId" id="1QPsM581W9CCFydt2aYp6SjGgP6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myweek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myweek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myweek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myweek" type="462c0819:PsiDirectoryNode" />
+              <item name="weupdates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myweek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myweek" type="462c0819:PsiDirectoryNode" />
+              <item name="weupdates" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myweek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myweek" type="462c0819:PsiDirectoryNode" />
+              <item name="weupdates" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="weupdates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,8 +287,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567683514598</updated>
+      <workItem from="1568100699121" duration="266000" />
+      <workItem from="1568101134495" duration="3059000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3325000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1387" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19925651" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -55,5 +334,38 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../env/lib/python3.7/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weupdates/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weupdates/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weupdates/templates/weupdates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

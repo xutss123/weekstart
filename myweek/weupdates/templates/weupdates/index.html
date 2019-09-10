@@ -8,6 +8,8 @@
 <!--</select>-->
 <!--    <a href="{% url 'weupdates:index' %}">pls</a>-->
 <!--</div>-->
+
+<body onload="get_week()">
 <form method = "POST" name="week" action="{% url 'weupdates:index' %}">
     {% csrf_token %}
     <select name="week_selection" onchange="get_week()">
@@ -59,18 +61,21 @@
                 <input type="radio" name="goodbad" >
                 <label>Is it good?</label>
             {%endif%}
-            <input type="integer" name = "selected_week" id = "selected_week">
+            <input type="text" name = "selected_week">
             <input type="submit" value="Post">
         {% endif %}
     </form>
 {%endfor%}
-
+</body>
 
 <script>
     function get_week(){
-        var week = document.getElementsByName('week_selection');
+        // Populates the input of selected_week so that on save it uses the correct week
+        var week = document.getElementsByName('week_selection')[0];
         console.log(week.options[week.selectedIndex].value);
-        document.getElementById('selected_week').value=week.options[week.selectedIndex].value;
+        document.getElementsByName('selected_week').forEach(function(element){
+            element.value=week.options[week.selectedIndex].value;
+        })
     }
 
 </script>

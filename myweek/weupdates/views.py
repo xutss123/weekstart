@@ -1,10 +1,9 @@
-#from django.db.models.functions import datetime
+
 from django.shortcuts import render, redirect
 
 # Create your views here.
 from django.http import HttpResponseRedirect
 from django.urls import reverse
-from django.views import View
 
 from .models import Action, Choice
 from django.contrib.auth import login, authenticate, logout
@@ -12,26 +11,28 @@ from django.utils import timezone
 import datetime
 
 
-def index(request):
-    print('\033[34m{}\033[0m'.format(request.POST))
-    week = request.POST.get('week_selection', None)
+def index(request, week=None):
+    if request.method == 'POST':
+        week = request.POST.get('week_selection', week)
+
     if week is None:
         today = timezone.now().today()
         week = today.strftime("%U")
     year = timezone.now().year
+
     list_weeks = []
     for i in range(1, 53):
         list_weeks.append(get_date_range_from_week(year, i))
+
     activity_list = Action.objects.filter(pub_date = int(week))
-    print('\033[34m{}\033[0m'.format(type(week)))
-    print('\033[34m{}\033[0m'.format(activity_list))
     choice_list = Choice.objects.order_by('pk')
     context = {
         'activity_list': activity_list,
         'choice_list': choice_list,
         'list_weeks': list_weeks
     }
-    return render(request, template_name='weupdates/index.html', context=context)
+    return render(
+        request, template_name='weupdates/index.html', context=context)
 
 
 def LoginView(request):
@@ -61,6 +62,7 @@ def logout_view(request):
 
 
 def add(request, choice_id):
+    print('\033[36m{}\033[0m'.format(request.method), flush=True)  # cyan
     if request.method == 'POST':
         text = request.POST['activity']
         week = request.POST['selected_week']
@@ -68,11 +70,12 @@ def add(request, choice_id):
         if good_or_bad is not None:
             good_or_bad = True
         else: good_or_bad = False
-        print('\033[34m{}\033[0m'.format(week))
         c = Choice.objects.get(pk=choice_id)
-        a = Action(choice=c, action_text=text, pub_date=int(week), goodbad=good_or_bad, user= request.user)
+        a = Action(
+            choice=c, action_text=text, pub_date=int(week),
+            goodbad=good_or_bad, user= request.user)
         a.save()
-    return redirect('weupdates:index')
+    return redirect('weupdates:index_with_week', week=week)
 
 
 def remove(request, activity_id):
